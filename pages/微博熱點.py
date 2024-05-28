@@ -1,13 +1,8 @@
-import time
 import requests
 import streamlit as st
 from bs4 import BeautifulSoup
 from function.refresh import prevent_malicious_refresh
 
-
-# 日期：2024年3月12日
-# 作者：陈某
-# 说明：获取微博热点
 
 def get_data():
     url = 'https://weibo.cn/pub/'
@@ -35,5 +30,3 @@ if __name__ == '__main__':
     news_list = get_data()
     for news in news_list:
         st.error(news)
-
-

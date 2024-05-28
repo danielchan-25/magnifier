@@ -6,12 +6,6 @@ import pandas as pd
 import streamlit as st
 from function.refresh import prevent_malicious_refresh
 
-
-# 日期：2024年3月12日
-# 作者：陈某
-# 说明：获取去哪儿网的特价机票
-
-
 now_time = time.time()  # 生成时间戳
 url = f'https://ws.qunar.com/lowerPrice.jcp?callback=jQuery17209515388475276634_1699863125197&_={now_time}'
 headers = {

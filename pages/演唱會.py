@@ -4,10 +4,6 @@ import json
 import pandas as pd
 from function.refresh import prevent_malicious_refresh
 
-# 日期：2024年3月12日
-# 作者：陈某
-# 说明：获取大麦网的广州演唱会
-
 location = '%E5%B9%BF%E5%B7%9E'  # 广州
 url = f'https://search.damai.cn/searchajax.html?keyword=&cty={location}&ctl=%E6%BC%94%E5%94%B1%E4%BC%9A&sctl=&tsg=0&st=&et=&order=1&pageSize=30&currPage=1&tn='
 headers = {

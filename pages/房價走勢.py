@@ -1,10 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-# 日期：2024年3月12日
-# 作者：陈某
-
-csv_file = './pages/XY_HousePrice_1D.csv'
+csv_file = '../spider/xinyi_houseprice/XY_HousePrice_1D.csv'
 
 if __name__ == '__main__':
     st.title('房價走勢')

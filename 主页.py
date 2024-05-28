@@ -1,9 +1,5 @@
 import streamlit as st
 
-# 日期：2024年3月11日
-# 作者：陈某
-
-# 默认主页
 st.set_page_config(
     page_title='Magnifier', page_icon=':house:', layout='wide'
 )
